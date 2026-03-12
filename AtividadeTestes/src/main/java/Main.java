@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
@@ -13,21 +12,7 @@ public class Main {
 
         String entrada = scanner.nextLine();
 
-        String[] pessoas = entrada.split(",");
-
-        List<String> mulheres = new ArrayList<>();
-
-        for (String pessoa : pessoas) {
-
-            String[] dados = pessoa.split("-");
-
-            String nome = dados[0].trim();
-            String sexo = dados[1].trim();
-
-            if (sexo.equalsIgnoreCase("F")) {
-                mulheres.add(nome);
-            }
-        }
+        List<String> mulheres = PessoaService.filtrarMulheres(entrada);
 
         System.out.println("\nLista de mulheres:");
 
