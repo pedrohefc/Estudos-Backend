@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>ProjetoVendas</artifactId>
+    <artifactId>ProjetoJDBC</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -17,7 +17,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>RELEASE</version>
+            <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
