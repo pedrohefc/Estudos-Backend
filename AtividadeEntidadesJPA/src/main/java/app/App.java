@@ -1,4 +1,4 @@
-package vendasOnline.app;
+package app;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -11,7 +11,7 @@ public class App {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("ExemploJPA");
         EntityManager em = emf.createEntityManager();
 
-        System.out.println("Funcionou!");
+        System.out.println("Tabelas criadas com sucesso!");
 
         em.close();
         emf.close();
