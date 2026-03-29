@@ -1,12 +1,12 @@
 package vendas.jpa;
 
-import br.com.rpires.dao.jpa.IProdutoJpaDAO;
-import br.com.rpires.dao.jpa.ProdutoJpaDAO;
-import br.com.rpires.domain.jpa.ProdutoJpa;
-import br.com.rpires.exceptions.DAOException;
-import br.com.rpires.exceptions.MaisDeUmRegistroException;
-import br.com.rpires.exceptions.TableException;
-import br.com.rpires.exceptions.TipoChaveNaoEncontradaException;
+import vendas.dao.jpa.IProdutoJpaDAO;
+import vendas.dao.jpa.ProdutoJpaDAO;
+import vendas.domain.jpa.ProdutoJpa;
+import vendas.exceptions.DAOException;
+import vendas.exceptions.MaisDeUmRegistroException;
+import vendas.exceptions.TableException;
+import vendas.exceptions.TipoChaveNaoEncontradaException;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Test;

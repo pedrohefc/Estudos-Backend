@@ -1,18 +1,15 @@
-/**
- * 
- */
 package vendas.jpa;
 
-import br.com.rpires.dao.VendaExclusaoJpaDAO;
-import br.com.rpires.dao.jpa.*;
-import br.com.rpires.domain.jpa.ClienteJpa;
-import br.com.rpires.domain.jpa.ProdutoJpa;
-import br.com.rpires.domain.jpa.VendaJpa;
-import br.com.rpires.domain.jpa.VendaJpa.Status;
-import br.com.rpires.exceptions.DAOException;
-import br.com.rpires.exceptions.MaisDeUmRegistroException;
-import br.com.rpires.exceptions.TableException;
-import br.com.rpires.exceptions.TipoChaveNaoEncontradaException;
+import vendas.dao.VendaExclusaoJpaDAO;
+import vendas.dao.jpa.*;
+import vendas.domain.jpa.ClienteJpa;
+import vendas.domain.jpa.ProdutoJpa;
+import vendas.domain.jpa.VendaJpa;
+import vendas.domain.jpa.VendaJpa.Status;
+import vendas.exceptions.DAOException;
+import vendas.exceptions.MaisDeUmRegistroException;
+import vendas.exceptions.TableException;
+import vendas.exceptions.TipoChaveNaoEncontradaException;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -25,10 +22,6 @@ import java.util.Random;
 
 import static org.junit.Assert.*;
 
-/**
- * @author rodrigo.pires
- *
- */
 public class VendaJpaDAOTest {
 	
 	private IVendaJpaDAO vendaDao;

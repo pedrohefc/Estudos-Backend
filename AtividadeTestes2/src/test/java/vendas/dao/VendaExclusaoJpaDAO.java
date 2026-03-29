@@ -1,21 +1,12 @@
-/**
- * 
- */
 package vendas.dao;
 
-import vendas.dao.generic.jpa.GenericJpaDAO;
+import vendas.dao.generic.jpa.GenericJpaDB1DAO;
 import vendas.dao.jpa.IVendaJpaDAO;
 import vendas.domain.jpa.VendaJpa;
 import vendas.exceptions.DAOException;
 import vendas.exceptions.TipoChaveNaoEncontradaException;
 
-/**
- * @author rodrigo.pires
- *
- * Classe utilizada somente no teste para fazer a exclusão das vendas
- *
- */
-public class VendaExclusaoJpaDAO extends GenericJpaDAO<VendaJpa, Long> implements IVendaJpaDAO {
+public class VendaExclusaoJpaDAO extends GenericJpaDB1DAO<VendaJpa, Long> implements IVendaJpaDAO {
 
 	public VendaExclusaoJpaDAO() {
 		super(VendaJpa.class);
