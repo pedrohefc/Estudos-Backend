@@ -1,10 +1,10 @@
-package com.pedro.clienteservice.entity;
+package com.pedro.produtoservice.entity;
 
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "clientes")
-public class Cliente {
+@Table(name = "produtos")
+public class Produto {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -14,15 +14,15 @@ public class Cliente {
     private String nome;
 
     @Column(nullable = false)
-    private String email;
+    private Double preco;
 
-    public Cliente() {
+    public Produto() {
     }
 
-    public Cliente(Long id, String nome, String email) {
+    public Produto(Long id, String nome, Double preco) {
         this.id = id;
         this.nome = nome;
-        this.email = email;
+        this.preco = preco;
     }
 
     public Long getId() {
@@ -41,11 +41,11 @@ public class Cliente {
         this.nome = nome;
     }
 
-    public String getEmail() {
-        return email;
+    public Double getPreco() {
+        return preco;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setPreco(Double preco) {
+        this.preco = preco;
     }
 }

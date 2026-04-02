@@ -1,10 +1,10 @@
-package com.pedro.clienteservice;
+package com.pedro.produtoservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ClienteServiceApplicationTests {
+class ProdutoServiceApplicationTests {
 
     @Test
     void contextLoads() {

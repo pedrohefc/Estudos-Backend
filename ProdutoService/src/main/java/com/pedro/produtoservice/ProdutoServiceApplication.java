@@ -1,13 +1,13 @@
-package com.pedro.clienteservice;
+package com.pedro.produtoservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ClienteServiceApplication {
+public class ProdutoServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ClienteServiceApplication.class, args);
+        SpringApplication.run(ProdutoServiceApplication.class, args);
     }
 
 }
