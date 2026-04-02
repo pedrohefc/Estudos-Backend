@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.pedro</groupId>
-    <artifactId>AtividadeSpringBoot</artifactId>
+    <artifactId>ClienteService</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>AtividadeSpringBoot</name>
-    <description>AtividadeSpringBoot</description>
+    <name>ClienteService</name>
+    <description>ClienteService</description>
     <url/>
     <licenses>
         <license/>
