@@ -1,10 +1,10 @@
-package com.pedro.produtoservice;
+package com.pedro.efood;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ProdutoServiceApplicationTests {
+class EfoodApplicationTests {
 
     @Test
     void contextLoads() {

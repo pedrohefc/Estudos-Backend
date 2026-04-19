@@ -1,13 +1,13 @@
-package com.pedro.produtoservice;
+package com.pedro.efood;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProdutoServiceApplication {
+public class EfoodApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ProdutoServiceApplication.class, args);
+        SpringApplication.run(EfoodApplication.class, args);
     }
 
 }
