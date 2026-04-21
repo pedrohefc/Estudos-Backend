@@ -23,5 +23,5 @@ public class Restaurant {
 
     @JsonManagedReference
     @OneToMany(mappedBy = "restaurant")
-    private List<Product> products;
+    private List<Product> cardapio;
 }
